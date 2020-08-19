@@ -20,7 +20,8 @@ function App() {
   return (
     <div>
       <Heading/>
-      {contacts.map(createCard)}//it work like forEach loop 
+      {/*it work like forEach loop */}
+      {contacts.map(createCard)} 
     </div>
   );
 }
